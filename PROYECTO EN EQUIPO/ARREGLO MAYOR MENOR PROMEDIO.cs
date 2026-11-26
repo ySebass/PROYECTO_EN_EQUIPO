@@ -28,5 +28,19 @@ namespace PROYECTO_EN_EQUIPO
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			MENU_PRINCIPAL n=new MENU_PRINCIPAL();
+			n.Show();
+			this.Hide();
+		}
+		
+		void Button3Click(object sender, EventArgs e)
+		{
+			textBox1.Text="";
+			textBox2.Text="";
+			textBox3.Text="";
+		}
 	}
 }
