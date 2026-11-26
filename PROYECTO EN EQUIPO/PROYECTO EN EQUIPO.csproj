@@ -78,6 +78,9 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MAYOR A MENOR.resx">
+      <DependentUpon>MAYOR A MENOR.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MENU PRINCIPAL.resx">
       <DependentUpon>MENU PRINCIPAL.cs</DependentUpon>
     </EmbeddedResource>
