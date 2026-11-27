@@ -28,5 +28,25 @@ namespace PROYECTO_EN_EQUIPO
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+		    char[] caracteres = txtIngresar.Text.ToCharArray();
+            Array.Reverse(caracteres);
+            txtConvertir.Text = new string(caracteres);
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			txtIngresar.Text="";
+			txtConvertir.Text="";
+		}
+		
+		void Button3Click(object sender, EventArgs e)
+		{
+			MENU_PRINCIPAL m = new MENU_PRINCIPAL();
+			m.Show();
+			this.Hide();
+		}
 	}
 }

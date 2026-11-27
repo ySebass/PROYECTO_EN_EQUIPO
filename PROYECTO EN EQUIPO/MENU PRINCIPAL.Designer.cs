@@ -54,21 +54,21 @@ namespace PROYECTO_EN_EQUIPO
 			// 
 			// button2
 			// 
-			this.button2.Location = new System.Drawing.Point(12, 141);
+			this.button2.Location = new System.Drawing.Point(169, 70);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(103, 55);
 			this.button2.TabIndex = 1;
-			this.button2.Text = "ARREGLO MAYOR MENOR Y PROMEDIO";
+			this.button2.Text = "PALABRA AL REVEZ";
 			this.button2.UseVisualStyleBackColor = true;
 			this.button2.Click += new System.EventHandler(this.Button2Click);
 			// 
 			// button3
 			// 
-			this.button3.Location = new System.Drawing.Point(169, 70);
+			this.button3.Location = new System.Drawing.Point(12, 141);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(103, 55);
 			this.button3.TabIndex = 2;
-			this.button3.Text = "PALABRA EL REVEZ";
+			this.button3.Text = "ARREGLO, MAYOR, MENOR Y PROMEDIO";
 			this.button3.UseVisualStyleBackColor = true;
 			this.button3.Click += new System.EventHandler(this.Button3Click);
 			// 

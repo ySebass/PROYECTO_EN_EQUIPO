@@ -99,6 +99,7 @@ namespace PROYECTO_EN_EQUIPO
 			// 
 			// textBox2
 			// 
+			this.textBox2.Enabled = false;
 			this.textBox2.Location = new System.Drawing.Point(80, 74);
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(100, 20);
@@ -106,6 +107,7 @@ namespace PROYECTO_EN_EQUIPO
 			// 
 			// textBox3
 			// 
+			this.textBox3.Enabled = false;
 			this.textBox3.Location = new System.Drawing.Point(80, 123);
 			this.textBox3.Name = "textBox3";
 			this.textBox3.Size = new System.Drawing.Size(100, 20);
@@ -121,6 +123,7 @@ namespace PROYECTO_EN_EQUIPO
 			// 
 			// textBox4
 			// 
+			this.textBox4.Enabled = false;
 			this.textBox4.Location = new System.Drawing.Point(80, 177);
 			this.textBox4.Name = "textBox4";
 			this.textBox4.Size = new System.Drawing.Size(100, 20);
