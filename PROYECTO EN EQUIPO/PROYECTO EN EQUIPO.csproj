@@ -87,6 +87,12 @@
     <EmbeddedResource Include="MENU PRINCIPAL.resx">
       <DependentUpon>MENU PRINCIPAL.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PALABRA AL REVEZ.resx">
+      <DependentUpon>PALABRA AL REVEZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VOCALESYCONSONANTES.resx">
+      <DependentUpon>VOCALESYCONSONANTES.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
